@@ -1,0 +1,94 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+}
+
+.fondo{
+	background-color: #B6F9FB;
+	max-width: 100%;
+	height: 400px;
+}
+
+.logo{
+	width:50%;
+	height:auto;
+}
+
+a{
+	text-decoration: none;
+	color:#082172;
+	padding: 20px;
+
+}
+
+
+form{
+	background-color: rgba(118, 161, 165, 0.2);
+	width:400px;
+	padding:10px 20px;
+	margin-top: 60px;
+	border-radius: 8px;
+}
+
+.titulo{
+	text-align: center;
+	color:#082172;
+	margin-top:60px;
+
+}
+
+.titulo-contacto{
+	text-align:center;
+	color:#082172;
+	width: 100%;
+	padding:7px;
+	font-size:25px;
+	margin-bottom:20px;
+	margin-top: 20px;
+}
+
+input{
+	width:100%;
+	margin-bottom:20px;
+	padding:7px;
+	font-size: 17px;
+	border:1px solid #9694FA;
+}
+
+.boton-mensaje{
+	text-align: center;
+	width: 100%;
+	margin-bottom:20px;
+	padding:7px;
+	font-size: 17px;
+	border:1px solid #9694FA;
+	background-color:#082172;
+	color: #fff;
+}
+
+.footer{
+	color:#07208B;
+	margin:20px 60px;
+}
+
+span{
+	color:#0A84B1;
+}
+
+
+@media (min-width: 535px) and (max-width: 824px){
+	.col-6{
+		width: 100%;
+	}
+	.logo{
+		width:30%;
+	}
+	.fondo{
+		width: 100%;
+		height: 700px;
+	}
+	.titulo{
+		width:40%;
+	}
+
+	
+}
